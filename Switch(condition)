@@ -1,0 +1,31 @@
+//display the menu
+	printf("select your favorite subject:\n");
+	printf("1.phycics\n 2.chemistry\n 3.maths\n 4.computers\n");
+	//reader's choice
+	int choice;
+	scanf("%d",&choice);
+	//display based on user's choice
+	switch(choice)
+	{
+		case 1:
+		printf("you selected physics\n");
+		break;
+	    
+	    case 2:
+	    	printf("you selected chemistry\n");
+	    	break;
+	    	
+	    case 3:
+	    	printf("you selected maths\n");
+	    	break;
+	    	
+	    case 4:
+		printf("you selected computers\n");
+		break;
+		
+		default:
+		printf("invalid choice");
+			
+	} 
+	
+}
